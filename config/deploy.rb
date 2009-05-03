@@ -1,5 +1,5 @@
 set :application, "Eyish"
-set :deploy_to, "/home/thorsten/public_html/eyish"
+set :deploy_to, "YOUR_PATH"
 set :scm, :git
 set :repository,  "YOUR_URL"
 set :branch, "master"
