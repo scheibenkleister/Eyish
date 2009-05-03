@@ -1,0 +1,2 @@
+module GalleryPreviewHelper
+end

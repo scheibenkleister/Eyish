@@ -1,0 +1,119 @@
+body
+{
+  background: #333;
+  color: #FFF;
+  padding: 1em;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a { color: #00AAFF; }
+
+
+/* idPhoto logo definitions */
+
+.logo
+{
+  font-family: Arial, sans-serif;
+  background: #000;
+  border: solid #555;
+  border-width: .02em 0;
+  padding: 0.1em 0;
+  margin: .02em 0;
+  width: 4.5em;
+  text-align: center;
+}
+.logo .i {color: #FA1083;font-style: italic;font-weight: normal;}
+.logo .d {color: #FF6B00;font-style: italic;font-weight: normal; margin-right: .3em;}
+.logo .p {color: #005ACD;}
+.logo .h {color: #00AAFF;}
+.logo .o {color: #00FFFF;}
+.logo .t {color: #52E900;}
+.logo .o2 {color: #7E7E7E;}
+.logo a {text-decoration: none;}
+.logo a:hover {text-decoration: underline;}
+
+
+/* header : common */
+
+#head { background: #222; }
+#head #logopos { padding: 20px 0 0 20px; }
+#head h1#title
+{
+  margin: 0;
+  padding: 0 20px 20px 0;
+  font-weight: normal;
+  text-align: right;
+}
+
+#menu_bar
+{
+  text-align: center;
+  text-align: right;
+}
+#menu_bar ul
+{
+  margin: 0;
+  padding: 0;
+}
+#menu_bar li
+{
+  display: inline;
+  list-style: none;
+}
+#menu_bar li.last { margin-right: 20px}
+#menu_bar a
+{
+  padding: .25em 2em;
+  line-height: 1.7em;
+  text-decoration: none;
+  color: #DDD;
+  font-weight: normal;
+  border-left: 1px solid #222;
+}
+#menu_bar h3 { display: inline ; margin: 0 ; padding: 0; font-size: 1em; }
+#menu_bar li.last a { border-right: 1px solid #222;}
+#menu_bar a:hover { color: #FFF; background: #7E7E7E; }
+
+
+/* page : content is thes elements */
+
+#page { padding: 0 2em; }
+#page h3 { font-weight: normal; }
+
+/* Tag Cloud */
+
+.tc_0 { font-size: 80% }
+.tc_1 { font-size: 100% }
+.tc_2 { font-size: 140% }
+.tc_3 { font-size: 180% }
+.tc_4 { font-size: 210% }
+.tc_5 { font-size: 260% }
+.tc_6 { font-size: 300% }
+.tc_7 { font-size: 400% }
+.tc_8 { font-size: 600% }
+.tc_9 { font-size: 750% }
+.tc_10 { font-size: 900% }
+
+/* photo listings */
+
+#collection ul {
+    list-style-type: none;
+}
+
+#collection li {
+	float: left;
+}
+
+#collection li a {
+    display: block;
+	margin: 6px;
+	padding: 5px;
+	border: 1px dotted black;
+	text-align: center;
+}
+
+#collection li a:hover {
+	border: 1px solid #456ff3;
+}

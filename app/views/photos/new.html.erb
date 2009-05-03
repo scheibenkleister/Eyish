@@ -1,0 +1,12 @@
+<% form_for @photo, :html => { :multipart => true } do |f| %>
+    <p>
+        <b>Upload Image</b><br />
+        <%= f.file_field :image_file %><br />
+        or URL: <%= f.text_field :image_file_url %>
+        <%= f.collection_select :collection_id, Collection.find(:all, :order => "caption"), :id, :caption %>
+    </p>
+
+    <p>
+        <%= f.submit "Create" %>
+    </p>
+<% end %>

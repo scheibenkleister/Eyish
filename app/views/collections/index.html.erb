@@ -1,0 +1,11 @@
+<div id="collection">
+  <h1>Gallery</h1>
+  <ul>
+    <% @collections.each do |col| %>
+      <% if col.photos.size > 0 %>
+        <% f= formatted_collection_preview_path(col.photos.first, :jpg) %>
+        <li> <%= link_to image_tag(f), collection_url(col) %> </li>
+      <%end%>
+    <%end%>
+  </ul>
+</div>

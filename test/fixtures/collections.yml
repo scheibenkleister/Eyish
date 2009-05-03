@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  caption: "Mole Nationalpark"
+  creationDate: 2.days.ago
+two:
+  caption: "Cape Coast"
+  creationDate: 1.month.ago
+three:
+  caption: "Wa"
+  creationDate: 2.days.ago

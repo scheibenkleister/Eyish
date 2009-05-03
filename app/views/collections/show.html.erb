@@ -1,0 +1,9 @@
+<div id="collection">
+  <h1> <%= link_to 'Gallery', collections_path %> >> <%= h @collection.caption %> </h1>
+  <ul>
+    <% @collection.photos.each do |photo| %>
+      <% f= formatted_photo_preview_path(photo, :jpg) %>
+      <li> <%= link_to image_tag(f), formatted_photo_path(photo, :jpg), :title => photo.caption, :rel => "lightbox[gallery_name]" %> </li>
+    <% end%>
+  </ul>
+</div>

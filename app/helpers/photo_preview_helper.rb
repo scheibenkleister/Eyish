@@ -1,0 +1,2 @@
+module PhotoPreviewHelper
+end

@@ -1,0 +1,14 @@
+@photo.operate do |image|
+    image.resize "128x128", :crop => true
+    image.image_overlay('public/images/blank.png',
+        :size => "128x96",
+        :alignment => :bottom_left
+    )
+
+    image.text(@photo.collection.caption + " (" + @photo.collection.photos.size.to_s + ")" + "\n" + @photo.collection.creationDate.to_s,
+        :alignment => :top_left,
+        :offset => "2x100",
+        :color => 'white',
+        :font_size => 11 
+ )
+end
